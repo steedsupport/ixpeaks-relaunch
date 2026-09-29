@@ -30,7 +30,8 @@
   ],
   "materials": "Ripstop mesh upper / EVA midsole / rubber outsole",
   "care": "Brush off dirt; machine-wash cold, air dry.",
-  "icon": "trailshoe"
+  "icon": "trailshoe",
+  "line": "NINE"
  },
  {
   "id": "NX-02",
@@ -63,7 +64,8 @@
   ],
   "materials": "Ripstop mesh upper / EVA midsole / rubber outsole",
   "care": "Brush off dirt; machine-wash cold, air dry.",
-  "icon": "trailshoe"
+  "icon": "trailshoe",
+  "line": "NINE"
  },
  {
   "id": "NX-03",
@@ -93,7 +95,8 @@
   ],
   "materials": "Suede/mesh upper / EVA midsole / rubber outsole",
   "care": "Air dry away from heat; treat leather seasonally.",
-  "icon": "boot"
+  "icon": "boot",
+  "line": "NINE"
  },
  {
   "id": "NX-04",
@@ -124,7 +127,8 @@
   ],
   "materials": "Suede/mesh upper / rubber outsole",
   "care": "Brush clean; air dry.",
-  "icon": "approach"
+  "icon": "approach",
+  "line": "NINE"
  },
  {
   "id": "NX-05",
@@ -154,7 +158,8 @@
   ],
   "materials": "Synthetic upper / EVA midsole",
   "care": "Machine-wash cold, air dry.",
-  "icon": "kidsslip"
+  "icon": "kidsslip",
+  "line": "NINE"
  },
  {
   "id": "NX-06",
@@ -185,7 +190,8 @@
   ],
   "materials": "EVA / cork blend",
   "care": "Rinse; air dry.",
-  "icon": "slide"
+  "icon": "slide",
+  "line": "NINE"
  },
  {
   "id": "NA-01",
@@ -217,7 +223,8 @@
   ],
   "materials": "100% recycled-face nylon / PU membrane",
   "care": "Machine-wash cold, tumble low; reproof seasonally.",
-  "icon": "shell"
+  "icon": "shell",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-02",
@@ -248,7 +255,8 @@
   ],
   "materials": "100% recycled-face nylon / PU membrane",
   "care": "Machine-wash cold, tumble low; reproof seasonally.",
-  "icon": "shell"
+  "icon": "shell",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-03",
@@ -276,7 +284,8 @@
   ],
   "materials": "Recycled polyester / PU coating",
   "care": "Wipe clean or machine-wash cold.",
-  "icon": "kidrain"
+  "icon": "kidrain",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-04",
@@ -304,7 +313,8 @@
   ],
   "materials": "Recycled polyester / PU coating",
   "care": "Wipe clean.",
-  "icon": "kidrain"
+  "icon": "kidrain",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-05",
@@ -335,7 +345,8 @@
   ],
   "materials": "Recycled ripstop / down blend (concept)",
   "care": "Spot clean; professional down clean recommended.",
-  "icon": "puffer"
+  "icon": "puffer",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-06",
@@ -365,7 +376,8 @@
   ],
   "materials": "Recycled ripstop / down blend (concept)",
   "care": "Spot clean; professional down clean recommended.",
-  "icon": "puffer"
+  "icon": "puffer",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-07",
@@ -395,7 +407,8 @@
   ],
   "materials": "100% recycled polyester fleece",
   "care": "Machine-wash cold; no softener.",
-  "icon": "fleece"
+  "icon": "fleece",
+  "line": "TREK"
  },
  {
   "id": "NA-08",
@@ -426,7 +439,8 @@
   ],
   "materials": "100% recycled polyester fleece",
   "care": "Machine-wash cold; no softener.",
-  "icon": "fleece"
+  "icon": "fleece",
+  "line": "TREK"
  },
  {
   "id": "NA-09",
@@ -456,7 +470,8 @@
   ],
   "materials": "87% merino / 13% nylon",
   "care": "Machine-wash cold; lay flat.",
-  "icon": "tee"
+  "icon": "tee",
+  "line": "TRAIL"
  },
  {
   "id": "NA-10",
@@ -487,7 +502,8 @@
   ],
   "materials": "87% merino / 13% nylon",
   "care": "Machine-wash cold; lay flat.",
-  "icon": "tee"
+  "icon": "tee",
+  "line": "TRAIL"
  },
  {
   "id": "NA-11",
@@ -514,7 +530,8 @@
   ],
   "materials": "100% organic cotton (concept)",
   "care": "Machine-wash cold.",
-  "icon": "tee"
+  "icon": "tee",
+  "line": "EVERYDAY"
  },
  {
   "id": "NA-12",
@@ -545,7 +562,8 @@
   ],
   "materials": "Recycled nylon/spandex",
   "care": "Machine-wash cold.",
-  "icon": "pants"
+  "icon": "pants",
+  "line": "TREK"
  },
  {
   "id": "NA-13",
@@ -575,7 +593,8 @@
   ],
   "materials": "Recycled poly/spandex",
   "care": "Machine-wash cold.",
-  "icon": "shorts"
+  "icon": "shorts",
+  "line": "ENGINE"
  },
  {
   "id": "NA-14",
@@ -606,7 +625,8 @@
   ],
   "materials": "Recycled poly/spandex",
   "care": "Machine-wash cold.",
-  "icon": "shorts"
+  "icon": "shorts",
+  "line": "ENGINE"
  },
  {
   "id": "NG-01",
@@ -631,7 +651,8 @@
   ],
   "materials": "Ripstop nylon / mesh back",
   "care": "Spot clean; air dry.",
-  "icon": "pack"
+  "icon": "pack",
+  "line": "TRAIL"
  },
  {
   "id": "NG-02",
@@ -656,7 +677,8 @@
   ],
   "materials": "Ripstop nylon / mesh back",
   "care": "Spot clean; air dry.",
-  "icon": "pack"
+  "icon": "pack",
+  "line": "TRAIL"
  },
  {
   "id": "NG-03",
@@ -681,7 +703,8 @@
   ],
   "materials": "TPU / silicone",
   "care": "Rinse after use.",
-  "icon": "flask"
+  "icon": "flask",
+  "line": "TRAIL"
  },
  {
   "id": "NX-07",
@@ -707,7 +730,8 @@
   ],
   "materials": "Recycled poly twill",
   "care": "Hand wash.",
-  "icon": "cap"
+  "icon": "cap",
+  "line": "EVERYDAY"
  },
  {
   "id": "NX-08",
@@ -734,7 +758,8 @@
   ],
   "materials": "Merino/nylon/elastane",
   "care": "Machine-wash warm.",
-  "icon": "socks"
+  "icon": "socks",
+  "line": "TREK"
  },
  {
   "id": "NX-09",
@@ -758,7 +783,8 @@
   ],
   "materials": "Acrylic/wool blend",
   "care": "Hand wash cold.",
-  "icon": "beanie"
+  "icon": "beanie",
+  "line": "SUMMIT"
  },
  {
   "id": "NX-10",
@@ -785,7 +811,8 @@
   ],
   "materials": "Merino/synthetic blend",
   "care": "Machine-wash cold.",
-  "icon": "gloves"
+  "icon": "gloves",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-15",
@@ -810,7 +837,8 @@
   ],
   "materials": "Recycled tarpaulin",
   "care": "Wipe clean.",
-  "icon": "duffel"
+  "icon": "duffel",
+  "line": "EVERYDAY"
  },
  {
   "id": "NA-16",
@@ -838,7 +866,8 @@
   ],
   "materials": "Cotton/poly fleece",
   "care": "Machine-wash cold.",
-  "icon": "hoodie"
+  "icon": "hoodie",
+  "line": "EVERYDAY"
  },
  {
   "id": "NA-17",
@@ -866,7 +895,8 @@
   ],
   "materials": "Recycled poly / PU",
   "care": "Wipe clean.",
-  "icon": "kidpants"
+  "icon": "kidpants",
+  "line": "SUMMIT"
  },
  {
   "id": "NA-18",
@@ -897,7 +927,8 @@
   ],
   "materials": "Recycled poly/spandex knit",
   "care": "Machine-wash cold.",
-  "icon": "sunhoodie"
+  "icon": "sunhoodie",
+  "line": "EVERYDAY"
  },
  {
   "id": "NA-19",
@@ -928,7 +959,8 @@
   ],
   "materials": "Ripstop nylon",
   "care": "Machine-wash cold.",
-  "icon": "anorak"
+  "icon": "anorak",
+  "line": "TRAIL"
  },
  {
   "id": "NA-20",
@@ -958,7 +990,8 @@
   ],
   "materials": "Softshell knit / membrane (concept)",
   "care": "Machine-wash cold; hang dry.",
-  "icon": "softshell"
+  "icon": "softshell",
+  "line": "EVERYDAY"
  },
  {
   "id": "NX-11",
@@ -983,6 +1016,7 @@
   ],
   "materials": "Mixed",
   "care": "Machine-wash cold.",
-  "icon": "bundle"
+  "icon": "bundle",
+  "line": "EVERYDAY"
  }
 ]

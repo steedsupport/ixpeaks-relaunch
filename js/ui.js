@@ -158,9 +158,11 @@ function pcardHTML(p, { wish = true } = {}) {
     </a>
     ${wish ? `<button class="wsub ${inWish ? 'on' : ''}" data-id="${p.id}" onclick="toggleWish('${p.id}')" aria-label="Wishlist ${esc(p.name)}"><svg viewBox="0 0 24 24"><path d="M12 21C7 16.5 3 13 3 8.8 3 6 5.2 4 7.8 4c1.7 0 3.3.9 4.2 2.4C12.9 4.9 14.5 4 16.2 4 18.8 4 21 6 21 8.8c0 4.2-4 7.7-9 12.2z"/></svg></button>` : ''}
     <button class="quickadd" data-add="${p.id}" aria-label="Quick add ${esc(p.label)}">+</button>
-    <div class="prow"><div><div class="pname">${esc(p.name)}</div>
-      <div class="pmeta">${esc(p.audience[0].toUpperCase() + p.audience.slice(1))} · ${esc(p.category)}</div></div>
-      <div class="pprice">${money(p.price)}</div></div>
+    <div class="prow"><div><div class="pmeta" style="letter-spacing:.16em;text-transform:uppercase;font-size:10.5px">${esc(p.line || '')} ${esc(p.audience[0].toUpperCase() + p.audience.slice(1))}</div>
+      <div class="pname">${esc(p.name)}</div></div>
+      <div style="text-align:right"><div class="pprice">${money(p.price)}</div>
+      <div class="flx" style="gap:5px;justify-content:flex-end;margin-top:6px">${(p.colors.slice(0,2)).map(c => `<i style="width:11px;height:11px;border-radius:50%;background:${((colorsHex[c]||['#23282C'])[0])};display:inline-block;border:1px solid rgba(23,19,14,.25)"></i>`).join('')}</div></div></div>
+    <button class="chip-add" data-add="${p.id}" aria-label="Add ${esc(p.name)}">+ ADD</button>
   </article>`;
 }
 window.pcardHTML = pcardHTML;

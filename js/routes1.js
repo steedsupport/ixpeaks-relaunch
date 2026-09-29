@@ -92,7 +92,7 @@ ROUTES['home'] = app => {
     <div class="bg"><img src="assets/img/campaign/hero.jpg" alt="Climbers traversing a granite ridge at sunrise" fetchpriority="high"></div>
     <div class="wrap hero-in">
       <div class="tagline-chip"><span style="width:7px;height:7px;border-radius:50%;background:var(--flame)"></span> Beyond Every Summit — FW26 Launch</div>
-      <h1>GO <span class="ix">BEYOND</span><br>EVERY<br>SUMMIT.</h1>
+      <h1>EVERY SUMMIT.<br><span class="ix">ONE CREW.</span></h1>
       <p class="sub">Performance systems and everyday layers for the whole crew. Wherever your summit is — the ridge, the record, or the first trailhead — you don't climb alone.</p>
       <div class="ctas">
         <button class="btn btn-solid btn-lg" onclick="location.hash='#/new'">Shop New Arrivals</button>

@@ -259,3 +259,8 @@ input, select, textarea { font: inherit; color: inherit; }
 .grow { flex: 1; }
 .pill-note { display: inline-flex; gap: 8px; align-items: center; border: 1px dashed var(--line); border-radius: 999px; padding: 7px 14px; font-size: 11.5px; color: var(--stone); letter-spacing: .04em; }
 .pill-note b { color: var(--flame); font-weight: 700; }
+/* card chip add (vanterra anatomy) */
+.pcard .chip-add { display: none; background: var(--ink); color: var(--paper); padding: 7px 12px; border-radius: 6px;
+  font-size: 10.5px; font-weight: 800; letter-spacing: .1em; margin-top: 2px; align-self: flex-start; }
+.pcard:hover .chip-add { display: inline-flex; align-items: center; }
+.pcard .chip-add:hover { background: var(--flame); color: #140B06; }
