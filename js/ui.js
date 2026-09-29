@@ -153,7 +153,7 @@ function pcardHTML(p, { wish = true } = {}) {
   const inWish = STORE.wishlist.includes(p.id);
   return `<article class="pcard reveal">
     <a class="pimg" href="#/p/${p.id}" aria-label="${esc(p.name)}">
-      <img src="${p.img}" alt="${esc(p.name)} — ${esc(p.category)} illustration" loading="lazy">
+      <img src="${p.img}" alt="${esc(p.name)} — ${esc(p.category)} studio photo" loading="lazy">
       ${p.badge ? `<span class="badge badge-float">${p.badge === 'BUNDLE' ? 'KIT' : p.badge}</span>` : ''}
     </a>
     ${wish ? `<button class="wsub ${inWish ? 'on' : ''}" data-id="${p.id}" onclick="toggleWish('${p.id}')" aria-label="Wishlist ${esc(p.name)}"><svg viewBox="0 0 24 24"><path d="M12 21C7 16.5 3 13 3 8.8 3 6 5.2 4 7.8 4c1.7 0 3.3.9 4.2 2.4C12.9 4.9 14.5 4 16.2 4 18.8 4 21 6 21 8.8c0 4.2-4 7.7-9 12.2z"/></svg></button>` : ''}

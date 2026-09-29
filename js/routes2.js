@@ -14,7 +14,7 @@ ROUTES['p'] = (app, id) => {
     <div class="pdp">
       <div class="pdp-gallery">
         <div class="main" id="pdpMain" onclick="this.classList.toggle('zoomed')">
-          <img src="${p.img}" alt="${esc(p.name)} product illustration" id="pdpImg">
+          <img src="${p.img}" alt="${esc(p.name)} product studio photo" id="pdpImg">
           <span class="zoom-hint">Click to zoom</span>
         </div>
         <div class="thumb-row">
