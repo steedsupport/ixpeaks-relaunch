@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000">
+<rect width="800" height="1000" fill="#EFE9DF"/>
+<rect x="0" y="0" width="800" height="10" fill="#FF5A1F"/>
+<text x="40" y="70" font-family="Arial, sans-serif" font-size="30" letter-spacing="6" fill="#B9B2A6">IXPEAKS</text>
+<g transform="translate(0 40)" opacity=".25">
+  <path d="M0 760 Q200 560 400 700 T800 620" stroke="#B9B2A6" stroke-width="2" fill="none"/>
+  <path d="M0 800 Q200 600 400 740 T800 660" stroke="#B9B2A6" stroke-width="2" fill="none"/>
+</g>
+<path d="M280 310 Q400 250 520 310 L555 350 L525 395 L505 380 L505 740 Q400 770 295 740 L295 380 L275 395 L245 350 Z" fill="#23282C"/><path d="M300 330 Q400 344 500 330" stroke="#23282C" stroke-width="3" fill="none"/><path d="M300 388 Q400 402 500 388" stroke="#23282C" stroke-width="3" fill="none"/><path d="M300 446 Q400 460 500 446" stroke="#23282C" stroke-width="3" fill="none"/><path d="M300 504 Q400 518 500 504" stroke="#23282C" stroke-width="3" fill="none"/><path d="M300 562 Q400 576 500 562" stroke="#23282C" stroke-width="3" fill="none"/><path d="M300 620 Q400 634 500 620" stroke="#23282C" stroke-width="3" fill="none"/><path d="M300 678 Q400 692 500 678" stroke="#23282C" stroke-width="3" fill="none"/>
+        <path d="M330 700 Q400 730 470 700 Q400 745 330 700 Z" fill="#FF5A1F"/>
+<text x="40" y="952" font-family="Arial, sans-serif" font-size="26" letter-spacing="4" fill="#B9B2A6">LAUNCH CONCEPT — NOT FINAL PRODUCTION</text>
+</svg>
