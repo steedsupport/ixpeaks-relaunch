@@ -195,9 +195,9 @@
   "category": "Jackets & Shells",
   "price": 329,
   "colors": [
-   "Storm",
-   "Flame",
-   "Granite"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -227,9 +227,9 @@
   "category": "Jackets & Shells",
   "price": 329,
   "colors": [
-   "Storm",
-   "Flame",
-   "Plum-Concept"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -258,8 +258,9 @@
   "category": "Jackets & Shells",
   "price": 129,
   "colors": [
-   "Flame",
-   "Sky-Concept"
+   "Summit Bone",
+   "Flame Ridge",
+   "First Flame"
   ],
   "sizes": [
    "YS",
@@ -285,8 +286,9 @@
   "category": "Jackets & Shells",
   "price": 119,
   "colors": [
-   "Flame",
-   "Bone"
+   "First Flame",
+   "Summit Bone",
+   "Storm Court"
   ],
   "sizes": [
    "4",
@@ -312,9 +314,9 @@
   "category": "Jackets & Shells",
   "price": 449,
   "colors": [
-   "Bone",
-   "Granite",
-   "Flame-Lined"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -343,8 +345,9 @@
   "category": "Jackets & Shells",
   "price": 449,
   "colors": [
-   "Granite",
-   "Storm"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "S",
@@ -372,8 +375,9 @@
   "category": "Insulation & Fleece",
   "price": 149,
   "colors": [
-   "Granite",
-   "Clay"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "S",
@@ -401,8 +405,9 @@
   "category": "Insulation & Fleece",
   "price": 149,
   "colors": [
-   "Clay",
-   "Bone"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -431,9 +436,9 @@
   "category": "Base Layers & Tops",
   "price": 89,
   "colors": [
-   "Heather Grey",
-   "Storm",
-   "Flame Stripe"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "S",
@@ -461,9 +466,9 @@
   "category": "Base Layers & Tops",
   "price": 89,
   "colors": [
-   "Black",
-   "Flame",
-   "Bone"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -492,9 +497,9 @@
   "category": "Base Layers & Tops",
   "price": 45,
   "colors": [
-   "Bone",
-   "Storm",
-   "Flame"
+   "Summit Bone",
+   "Flame Ridge",
+   "First Flame"
   ],
   "sizes": [
    "YS",
@@ -519,8 +524,9 @@
   "category": "Pants",
   "price": 159,
   "colors": [
-   "Storm",
-   "Granite"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "28",
@@ -549,8 +555,9 @@
   "category": "Shorts",
   "price": 109,
   "colors": [
-   "Storm",
-   "Flame"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "S",
@@ -578,9 +585,9 @@
   "category": "Shorts",
   "price": 109,
   "colors": [
-   "Storm",
-   "Flame",
-   "Bone"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -813,9 +820,9 @@
   "category": "Insulation & Fleece",
   "price": 79,
   "colors": [
-   "Bone",
-   "Storm",
-   "Flame"
+   "Summit Bone",
+   "Flame Ridge",
+   "First Flame"
   ],
   "sizes": [
    "YS",
@@ -841,8 +848,9 @@
   "category": "Pants",
   "price": 109,
   "colors": [
-   "Flame",
-   "Storm"
+   "First Flame",
+   "Summit Bone",
+   "Storm Court"
   ],
   "sizes": [
    "4",
@@ -868,8 +876,9 @@
   "category": "Base Layers & Tops",
   "price": 99,
   "colors": [
-   "Bone",
-   "Clay"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -898,8 +907,9 @@
   "category": "Jackets & Shells",
   "price": 279,
   "colors": [
-   "Storm",
-   "Flame"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "XS",
@@ -928,8 +938,9 @@
   "category": "Jackets & Shells",
   "price": 399,
   "colors": [
-   "Granite",
-   "Storm"
+   "Summit Bone",
+   "Flame Ridge",
+   "Storm Court"
   ],
   "sizes": [
    "S",

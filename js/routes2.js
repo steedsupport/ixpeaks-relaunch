@@ -25,6 +25,7 @@ ROUTES['p'] = (app, id) => {
         <div class="flx-between"><span class="kicker">${esc(p.category)} — ${esc(p.activity[0].toUpperCase()+p.activity.slice(1))}</span><span class="rating">★ ${rating} <span class="meta">(sample rating UI)</span></span></div>
         <h1 class="mt1">${esc(p.name)}</h1>
         <div class="pdp-price" id="pdpPrice">${money(p.price)}</div>
+        <div class="spec-line" style="font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--stone);margin-top:6px">${esc(p.features.filter(f => !/concept/i.test(f)).join(' · ').toUpperCase().slice(0, 90) || p.category.toUpperCase())}</div>
         <p class="lede mt2" style="font-size:15.5px">${esc(p.desc)}</p>
 
         <div class="opt-lbl">Color <b id="colorSelLbl">${esc(p.colors[0])}</b></div>

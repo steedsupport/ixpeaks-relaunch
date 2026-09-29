@@ -33,11 +33,7 @@ const $ = s => document.querySelector(s);
 const $$ = s => [...document.querySelectorAll(s)];
 const esc = s => String(s).replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const PRODUCT = id => PRODUCTS.find(p => p.id === id);
-const colorsHex = { "Granite/Flame": ["#23282C", "#FF5A1F"], "Storm": ["#23282C"], "Bone": ["#EFE9DF"],
-  "Granite": ["#23282C"], "Clay": ["#B4552D"], "Flame": ["#FF5A1F"], "Slate": ["#3A3F44"],
-  "Plum-Concept": ["#4A2B3A"], "Sky-Concept": ["#8FA8C7"], "Flame-Lined": ["#FF5A1F"],
-  "Heather Grey": ["#9AA0A6"], "Flame Stripe": ["#FF5A1F"], "Black": ["#17130E"],
-  "Flame/Bone": ["#FF5A1F", "#EFE9DF"], "Storm/Flame": ["#23282C", "#FF5A1F"] };
+const colorsHex = window.__COLORHEX__ || {};
 const ratings = p => 4.6 + ((parseInt(p.id.replace(/\D/g,'')) % 4) * .1);
 
 /* ---------- toast ---------- */
