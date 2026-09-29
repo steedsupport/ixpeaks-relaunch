@@ -149,8 +149,13 @@ function setRegion(r) {
 window.setRegion = setRegion;
 
 /* ---------- product card (shared) ---------- */
+function withImg(p) {
+  if (!p.img) { p.img = 'assets/img/products/' + p.id.toLowerCase() + '.jpg'; }
+  return p;
+}
 function pcardHTML(p, { wish = true } = {}) {
   const inWish = STORE.wishlist.includes(p.id);
+  p = withImg(p);
   return `<article class="pcard reveal">
     <a class="pimg" href="#/p/${p.id}" aria-label="${esc(p.name)}">
       <img src="${p.img}" alt="${esc(p.name)} — ${esc(p.category)} studio photo" loading="lazy">

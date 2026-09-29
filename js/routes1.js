@@ -111,10 +111,9 @@ ROUTES['home'] = app => {
   <section class="sect"><div class="wrap">
     <div class="sect-head reveal"><div><div class="kicker">Shop by audience</div><h2>EVERY CREW MEMBER</h2></div><a class="btn btn-ghost" href="#/clothing">All categories →</a></div>
     <div class="aud-grid">
-      ${['men','women','youth','kids'].map(a => `
-      <a class="aud-tile reveal" href="#/${a}">
-        <svg class="contours" viewBox="0 0 400 200" preserveAspectRatio="none" aria-hidden="true"><path d="M0 150 Q100 90 200 130 T400 110" stroke="#EFE9DF3a" fill="none" stroke-width="1.5"/><path d="M0 170 Q120 110 220 150 T400 130" stroke="#EFE9DF26" fill="none" stroke-width="1.5"/></svg>
-        <div class="tlabel">${a[0].toUpperCase()+a.slice(1)} <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M7 17L17 7M17 9V17H9"/></svg></div>
+      ${[['men','men','MEN'],['women','women','WOMEN'],['youth','youth','YOUTH'],['kids','kids','KIDS']].map(([a,img,label]) => `
+      <a class="aud-tile photo reveal" href="#/${a}" style="background-image:url('assets/img/aud/${img}.jpg')">
+        <div class="tlabel">${label} <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><path d="M7 17L17 7M17 9V17H9"/></svg></div>
       </a>`).join('')}
     </div>
   </div></section>

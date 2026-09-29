@@ -114,7 +114,7 @@ function renderCart() {
   body.innerHTML = STORE.cart.map(i => {
     const p = PRODUCT(i.id);
     return `<div class="ditem">
-      <img src="${p.img}" alt="${esc(p.name)}">
+      <img src="${p.img || ('assets/img/products/' + p.id.toLowerCase() + '.jpg')}" alt="${esc(p.name)}">
       <div><a href="#/p/${p.id}" onclick="closeCart()" style="font-weight:700">${esc(p.name)}</a>
         <div class="pmeta">${esc(p.category)} · ${esc(i.color)} · Size ${esc(i.size)}</div>
         <div class="qty mt1"><button onclick="setQty('${i.key}',${i.q - 1})" aria-label="decrease">−</button><span>${i.q}</span><button onclick="setQty('${i.key}',${i.q + 1})" aria-label="increase">+</button></div>

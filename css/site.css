@@ -264,3 +264,10 @@ input, select, textarea { font: inherit; color: inherit; }
   font-size: 10.5px; font-weight: 800; letter-spacing: .1em; margin-top: 2px; align-self: flex-start; }
 .pcard:hover .chip-add { display: inline-flex; align-items: center; }
 .pcard .chip-add:hover { background: var(--flame); color: #140B06; }
+
+/* audience tiles: photo-backed */
+.aud-tile.photo { background-size: cover; background-position: center 22%; position: relative; overflow: hidden; }
+.aud-tile.photo::after { content: ''; position: absolute; inset: 0;
+  background: linear-gradient(180deg, rgba(10,8,6,0) 35%, rgba(10,8,6,.72) 100%); }
+.aud-tile.photo .tlabel { position: absolute; left: 22px; bottom: 20px; z-index: 2; }
+.aud-tile.photo .contours { display: none; }

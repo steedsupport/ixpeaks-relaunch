@@ -14,11 +14,11 @@ ROUTES['p'] = (app, id) => {
     <div class="pdp">
       <div class="pdp-gallery">
         <div class="main" id="pdpMain" onclick="this.classList.toggle('zoomed')">
-          <img src="${p.img}" alt="${esc(p.name)} product studio photo" id="pdpImg">
+          <img src="${p.img || ('assets/img/products/' + p.id.toLowerCase() + '.jpg')}" alt="${esc(p.name)} product studio photo" id="pdpImg">
           <span class="zoom-hint">Click to zoom</span>
         </div>
         <div class="thumb-row">
-          ${[0,1,2].map(i => `<button class="th ${i===0?'on':''}" data-alt="${i}" aria-label="View ${i+1}"><img src="${p.img}" alt="" style="filter:grayscale(${i*0.35})"></button>`).join('')}
+          ${[0,1,2].map(i => `<button class="th ${i===0?'on':''}" data-alt="${i}" aria-label="View ${i+1}"><img src="${p.img || ('assets/img/products/' + p.id.toLowerCase() + '.jpg')}" alt="" style="filter:grayscale(${i*0.35})"></button>`).join('')}
         </div>
       </div>
       <div class="pdp-info">
@@ -141,7 +141,7 @@ ROUTES['checkout'] = app => {
       </form>
       <aside class="co-summary">
         <h3 class="disp" style="font-size:16px">Order summary</h3>
-        <div class="mt3">${STORE.cart.map(i => { const p = PRODUCT(i.id); return `<div class="ditem" style="padding:8px 0"><img src="${p.img}" alt=""><div><b style="font-size:13.5px">${esc(p.name)}</b><div class="pmeta">${esc(i.color)} · ${esc(i.size)} × ${i.q}</div></div><b style="font-size:13px">${money(p.price * i.q)}</b></div>`; }).join('')}</div>
+        <div class="mt3">${STORE.cart.map(i => { const p = PRODUCT(i.id); return `<div class="ditem" style="padding:8px 0"><img src="${p.img || ('assets/img/products/' + p.id.toLowerCase() + '.jpg')}" alt=""><div><b style="font-size:13.5px">${esc(p.name)}</b><div class="pmeta">${esc(i.color)} · ${esc(i.size)} × ${i.q}</div></div><b style="font-size:13px">${money(p.price * i.q)}</b></div>`; }).join('')}</div>
         <div class="co-line mt3"><span>Subtotal</span><span id="coSub">${money(cartTotal())}</span></div>
         ${STORE.promo ? `<div class="co-line"><span>Promo ${STORE.promo}</span><span>−${money(cartTotal() * PROMOS[STORE.promo])}</span></div>` : ''}
         <div class="co-line"><span>Shipping</span><span>Free</span></div>
