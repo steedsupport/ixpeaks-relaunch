@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 604 580" role="img" aria-labelledby="title desc" data-lockup-gap="0.20H">
+  <title id="title">IXPEAKS vertical white lockup</title>
+  <desc id="desc">Flat IXPEAKS symbol above the IXPEAKS wordmark in white.</desc>
+  <g fill="#FFFFFF">
+    <path fill-rule="evenodd" transform="translate(151 0) scale(.5)" d="M12 569L14 563L25 552L31 542L39 535L161 385L155 374L14 216L14 212L19 205L33 190L157 31L174 13L233 110L240 118L271 172L275 175L274 177L280 187L287 195L303 347L317 200L413 41L430 14L433 13L591 212L589 219L443 382L446 389L469 414L475 424L593 566L586 579L527 654L355 654L328 682L328 685L316 695L312 702L302 710L251 654L77 654L12 569ZM105 197L248 383L131 557L214 475L295 389L304 383L477 561L452 521L447 517L444 509L403 452L398 441L393 437L376 409L360 389L358 382L455 255L475 232L479 224L489 214L500 197L432 239L303 379L297 375L174 239L105 197Z"/>
+    <!-- Standard gap: 0.20 × visible emblem height, measured to the wordmark cap height. -->
+    <text x="302" y="490" text-anchor="middle" font-family="Archivo, 'Helvetica Neue', Arial, sans-serif" font-size="86" font-weight="800" letter-spacing="5">IXPEAKS</text>
+  </g>
+</svg>
